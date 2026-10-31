@@ -1,0 +1,37 @@
+======================================================================================================================================================================
+
+Step 1 — Check your completed folder
+
+Your folder should now look like this:
+
+new_agents
+
+`.github`
+
+`copilot-instructions.md`
+
+`agents`
+
+`project-requirements.agent.md`
+
+`react-ui-developer.agent.md`
+
+`debugging.agent.md`
+
+`code-reviewer.agent.md`
+
+======================================================================================================================================================================
+
+Step 2 — Test your agents with GitHub Copilot Free
+
+1. Open Copilot Chat.
+2. Check whether the custom-agent selector is available in your installation.
+3. Look for Project Requirements Agent in the agent dropdown.
+4. Ask it: “I need to develop a React UI page, but the manager hasn't confirmed the tech stack or design. Prepare the questions I need to ask.”
+5. Verify that it produces questions rather than inventing decisions.
+
+If your free Copilot account or current VS Code configuration doesn't expose custom agents, the files are still useful as reusable instructions. You can open a file, copy its instructions into ChatGPT, and ask me to act as that agent instead.
+
+One important point: creating these files does not automatically give them access to every project folder on your computer. Open the actual project workspace when you need an agent to inspect that project's files.
+
+Your next milestone is to get the Project Requirements Agent working first. Once you confirm that the folders and files are created, we can test its output against your real UI development workflow.
